@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # bash -xで実行すると変数を展開して表示する
 
 assert(){
@@ -20,6 +21,6 @@ assert(){
 
 assert 0 0
 assert 42 42
-
+assert 21 "5+20-4"
 
 echo OK
